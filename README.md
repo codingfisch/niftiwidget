@@ -8,11 +8,11 @@ NiftiWidget is build around the `niftiview` [Python package](https://github.com/
 - Save the view as a **high-quality figure** or as a **GIF** 💾
 - ...and much more...
 
-Learn to use it via the `niftiview` [examples](https://github.com/codingfisch/niftiview) and [this **YouTube-Tutorial**](https://www.youtube.com/) 💡
+Learn to use it via the `niftiview` [examples](https://github.com/codingfisch/niftiview/tree/main/examples) and [this **YouTube-Tutorial**](https://www.youtube.com/) 💡
 
 Install it via `pip install niftiwidget` 🛠️
 - In Colab, run `apt install libcairo2-dev pkg-config python3-dev` then `pip install niftiwidget`
-- On other systems [these tips]() might help to make it work
+- On other systems [these tips](https://github.com/codingfisch/niftiview_app?tab=readme-ov-file#bugfixes-) might help to make it work
 ## Usage 💡
 To view saved files, pass the filepaths to `Config` which is passed to `NiftiWidget`
 ```python
@@ -74,5 +74,6 @@ because modifying the filepath while keeping the `;` will result in e.g. unwante
 
 ## Colab 🐌
 Since NiftiWidget does not use the GPU (like e.g. [`ipyniivue`](https://github.com/niivue/ipyniivue)) **image refreshes in Colab are slow** 🐌
-
+![colab](https://github.com/user-attachments/assets/256cc923-da88-47c3-a21a-b610410de7d8)
 However, if used inside a local Jupyter notebook this is not an issue 🐇
+![jupyter](https://github.com/user-attachments/assets/28e18b8f-402d-4e58-a693-7906e974eb4d)
