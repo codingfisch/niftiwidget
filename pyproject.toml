@@ -1,0 +1,22 @@
+[tool.poetry]
+name = 'niftiwidget'
+version = '0.0.1'
+description = 'View volumetric images in Jupyter 🧠'
+authors = ['codingfisch <l_fisc17@wwu.de>']
+license = 'MIT'
+readme = 'README.md'
+repository = 'https://github.com/codingfisch/niftiwidget'
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Science/Research'
+]
+
+[tool.poetry.dependencies]
+python = '^3.9'
+niftiview = '*'
+fpng_py = '*'
+
+[build-system]
+requires = ['poetry-core']
+build-backend = 'poetry.core.masonry.api'
