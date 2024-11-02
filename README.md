@@ -75,5 +75,6 @@ because modifying the filepath while keeping the `;` will result in e.g. unwante
 ## Colab 🐌
 Since NiftiWidget does not use the GPU (like e.g. [`ipyniivue`](https://github.com/niivue/ipyniivue)) **image refreshes in Colab are slow** 🐌
 ![colab](https://github.com/user-attachments/assets/256cc923-da88-47c3-a21a-b610410de7d8)
+
 However, if used inside a local Jupyter notebook this is not an issue 🐇
 ![jupyter](https://github.com/user-attachments/assets/28e18b8f-402d-4e58-a693-7906e974eb4d)
